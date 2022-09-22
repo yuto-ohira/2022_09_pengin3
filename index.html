@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width,initial-scale=1.0">
+<title>cording-lesson3(pengin blog)</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="parts/header.css">
+<link rel="stylesheet" href="parts/footer.css">
+<link rel="stylesheet" href="parts/btn.css">
+<link rel="stylesheet" href="parts/font.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header-logo">
+            <a href="#top"><img src="images/site-logo.png"></a>
+        </div>
+        <div class="header-menu">
+            <div class="hamburger" id="hamburger">
+                <span id="hamburger-top" class="line"></span>
+                <span id="hamburger-center" class="line"></span>
+                <span id="hamburger-bottom" class="line"></span>
+            </div>
+            <p>MENU</p>
+        </div>
+        <div class="menu" id="menu">
+            <div class="menu-list">
+                <a href="#top"><img src="images/グループ 8.png" id="menu-logo"></a>
+                <ul>
+                    <li><a href="#about" id="menu1">ABOUT US</a></li>
+                    <li><a href="#works" id="menu2">WORKS</a></li>
+                    <li><a href="#culture" id="menu3">CULTURE</a></li>
+                    <li><a href="#topics" id="menu4">TOPICS</a></li>
+                    <li><a href="#contact" id="menu5">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-in-bg" id="menu-in-bg"></div>
+    </header>
+    <div class="fv" id="top">
+        <div class="fv-img">
+            <img src="images/kv-img-sp.png" class="fv-img-sp">
+            <img src="images/kv-img-tb.png" class="fv-img-tb">
+            <img src="images/kv-img-pc.png" class="fv-img-pc">
+        </div>
+        <div class="fv-bg"></div>
+        <div class="fv-contents">
+            <p>デザインで人を笑顔にする会社</p>
+            <p>DIGSMILE INC.</p>
+            <h1>DESIGN<br>FOR<br>SMILE.</h1>
+        </div>
+    </div>
+    <div class="main">
+        <div class="about" id="about">
+            <div class="about-img">
+                <img src="images/about-img.png" class="about-img-sp">
+                <img src="images/マスクグループ 15.png" class="about-img-tb">
+                <img src="images/マスクグループ 14.png" class="about-img-pc">
+            </div>
+            <div class="about-contents">
+                <h2>ABOUT US</h2>
+                <p>DIGSMILEは、デザインで人を笑顔にする会社。<br>なんでもない日常に少しのワクワクと遊び心を提供します。笑顔には世界を変える力がある、デザインには人を幸せにする力がある。毎日に幸せを感じて生きていきたい。<br>DIGSMILEの社名にはそんな想いが込められています。</p>
+                <input type="button" value="READ MORE" class="btn" onclick="location.href='about/index.html'">
+            </div>
+            <div class="about-bg"></div>
+        </div>
+        <div class="company">
+            <div class="works card" id="works">
+                <h2>WORKS</h2>
+                <div class="works-img card-img">
+                    <img src="images/マスクグループ 3-sp.png" class="works-img-sp">
+                    <img src="images/マスクグループ 3-tb-pc.png" class="works-img-tb-pc">
+                </div>
+                <p>DIGSMILEの制作実績を紹介します。</p>
+                <input type="button" value="READ MORE" class="btn">
+            </div>
+            <div class="culture card" id="culture">
+                <h2>CULTURE</h2>
+                <div class="culture-img card-img">
+                    <img src="images/マスクグループ 4-sp.png" class="culture-img-sp">
+                    <img src="images/マスクグループ 4-tb-pc.png" class="culture-img-tb-pc">
+                </div>
+                <p>DIGSMILEの社内文化について紹介します。</p>
+                <input type="button" value="READ MORE" class="btn">
+            </div>
+        </div>
+        <div class="topics" id="topics">
+            <h2>LATEST TOPICS</h2>
+            <div class="topics-list">
+                <p class="date">2020.02.01</p>
+                <p>イベントレポート「VRクリエイター座談会 〜5Gの次に来るもの〜」</p>
+                <hr>
+                <p class="date">2020.01.18</p>
+                <p>プレスリリースのお知らせ DIGGIN’ RECORDS</p>
+                <hr>
+                <p class="date">2020.01.01</p>
+                <p>新年明けましておめでとうございます</p>
+                <hr>
+                <input type="button" value="READ MORE" class="btn">
+            </div>
+        </div>
+        <div class="contact" id="contact">
+            <div class="contact-img">
+                <img src="images/マスクグループ 5-sp.png" class="contact-img-sp">
+                <img src="images/マスクグループ 5-tb.png" class="contact-img-tb">
+                <img src="images/マスクグループ 5-pc.png" class="contact-img-pc">
+            </div>
+            <div class="contact-contents">
+                <h2>CONTACT</h2>
+                <p>制作の依頼、取材の依頼、IRや採用についての連絡・お問い合わせはコンタクトページから承っております。<br>まずはお気軽にご連絡ください。担当者から改めて返信いたします。</p>
+                <input type="button" value="READ MORE" class="btn" onclick="location.href='contact/index.html'">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>©2018 DIGSMILE INC.</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/jump.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/index.js"></script>
+</body>

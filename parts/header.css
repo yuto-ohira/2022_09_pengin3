@@ -1,0 +1,169 @@
+#header{
+    background-color: rgba(34, 34, 34, 0);
+    height:60px;
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+}
+
+#header.header-color{
+    background-color: rgba(34, 34, 34, 0.95);
+
+}
+
+.header-logo img{
+    width: 189px;
+    height:20.61px;
+    position:relative;
+    top:19.8px;
+    left:4%;
+    color:#ffffff;
+}
+
+.header-menu{
+    width:61px;
+    height: 13px;
+    position:absolute;
+    top:24px;
+    right:4%;
+    z-index: 10;
+    transition: 1s;
+}
+
+.header-menu p{
+    color:#ffffff;
+    font-size: 0.625rem;
+    font-weight:800;
+    position:absolute;
+    top:-10px;
+    left:28px;
+}
+
+.hamburger{
+    width:22px;
+    height:100%;
+    position:relative;
+    transition:1s;
+    cursor: pointer;
+}
+
+.line{
+    display: block;
+    background-color: #ffffff;
+    width:100%;
+    height:2px;
+    border-radius: 6px;
+    position:absolute;
+    transition: 1s;
+}
+
+#hamburger-top{
+    top:0px;
+}
+
+#hamburger-center{
+    top:5.4px;
+}
+
+#hamburger-bottom{
+    bottom:1px;
+}
+
+
+.line_1{
+    opacity: 0;
+}
+
+.line_2{
+    transform: rotate(-30deg);
+
+}
+
+.line_3{
+    top:5.4px;
+    transform: rotate(30deg);
+}
+
+.menu{
+    position:absolute;
+    top:0;
+    right:-100vw;
+    background-color: rgba(34, 34, 34, 0.95);
+    height: 100vh;
+    width:100vw;
+    transition: 1s;
+    z-index: 2;
+}
+
+.menu img{
+    height:45px;
+    width:42.15px;
+    cursor: pointer;
+}
+
+.menu-list{
+    width:120px;
+    height:326px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.menu ul{
+    list-style: none;
+    height:241px;
+    width:100%;
+    padding: 0;
+    flex-flow: column;
+    justify-content: space-between;
+    display: flex;
+    margin-top:40px;
+    margin-bottom:0;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color:#ffffff;
+    
+}
+
+.in{
+    display: block;
+    transform: translateX(-100vw);
+}
+
+.menu-in-bg{
+    width:100vw;
+    height:0;
+    position:absolute;
+    top:0;
+    background-color: rgba(34, 34, 34, 0);
+    transition: 0.8s;
+    z-index: 1;
+}
+
+@media screen and (min-width:520px) {
+
+    .menu{
+        width:520px;
+    }
+
+    .menu-list{
+        margin-top:180px;
+    }
+
+    .bg-in{
+        height:100vh;  
+        background-color: rgba(34, 34, 34, 0.6);
+    }
+}
+
+@media screen and (min-width:960px) {
+    .header-logo img{
+        width:260px;
+        height:28.2px;
+    }
+}

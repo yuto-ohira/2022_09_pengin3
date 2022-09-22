@@ -1,0 +1,30 @@
+footer{
+    width:100vw;
+    height:50px;
+    background-color: rgba(82,82,82);
+    display: block;
+}
+
+footer p{
+    color:#ffffff;
+    font-size: 0.625rem;
+    font-weight: 500;
+    width:60%;
+    position:relative;
+    top:18px;
+    left:35.2%;
+    margin: 0;
+    display: inline;
+}
+
+@media screen and (min-width:520px) {
+    footer p{
+        left:42.7%;
+    }
+}
+
+@media screen and (min-width:960px){
+    footer p{
+        left:46.2%;
+    }
+}
